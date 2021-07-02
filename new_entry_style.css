@@ -1,0 +1,47 @@
+.new_entry{
+    background-image:url('dark-14764261728gkn4.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: fixed;
+    top:0px;
+    left:0px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    z-index: -1;
+}
+
+#new_entry_button{
+  flex-basis: auto;
+  width:15rem;
+  height: 5rem;
+  border-radius: 20px;
+  border: 3px solid black;
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:22px;
+  
+}
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+.logout{
+  color: black;
+  position: absolute;
+  bottom: 0px;
+  
+}
+.viewrecord{
+  color: black;
+}
+
+.viewrecord>a{
+  text-decoration: none;
+    color: black;
+}
